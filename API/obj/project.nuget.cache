@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6kx8nf5hTU6cZKSRsPgS2aT8XcavIzkTDsrTr+dQja2G54MjDxnWl/wU+/l5k5/9X9UcJe7WpnpOGVJHTMUWIw==",
+  "dgSpecHash": "ZoJTcqLlCYyHz9FZtH4JN8g250TsYLLqaDUWRv2dZcrUC0aOhrKYNoAVyik7iWbEar+kVcF68bNOpfMdLlyfOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\api\\API.csproj",
+  "projectFilePath": "c:\\Users\\tajamulhussain\\Desktop\\hackathon\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tajamulhussain\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\tajamulhussain\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
