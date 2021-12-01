@@ -22,7 +22,6 @@ C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\staticwebassets\A
 C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.xml
 C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\scopedcss\bundle\API.styles.css
 C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\API.RazorTargetAssemblyInfo.cache
-C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\API.csproj.CopyComplete
 C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\API.dll
 C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\ref\API.dll
 C:\Users\tajamulhussain\Desktop\hackathon\api\obj\Debug\net5.0\API.pdb
