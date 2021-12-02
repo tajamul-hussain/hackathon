@@ -193,19 +193,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tajamulhussain\\.nuget\\packages\\": {}
+    "C:\\Users\\chardeya\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\tajamulhussain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\API\\obj\\",
+      "projectPath": "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\chardeya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\tajamulhussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chardeya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -254,7 +259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
