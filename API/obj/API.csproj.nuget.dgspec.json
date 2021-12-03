@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\api\\API.csproj": {}
+    "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\api\\API.csproj": {
+    "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\api\\API.csproj",
-        "packagesPath": "C:\\Users\\tajamulhussain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\api\\obj\\",
+        "projectPath": "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\chardeya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chardeya\\OneDrive - Automatic Data Processing Inc\\Desktop\\Hack-a-thon\\hackathon\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\tajamulhussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chardeya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +44,48 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.QualityTools.Testing.Fakes": {
+              "target": "Package",
+              "version": "[16.11.230815, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -63,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
