@@ -1,0 +1,53 @@
+.heading-primary-main{
+  font-weight: bolder;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 10px;
+
+  font-size: 60px;
+   font-size: 20px;
+  text-transform: uppercase;
+  animation-name:moveInLeft ;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+
+}
+
+
+
+
+
+@keyframes moveInLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(-100px);
+
+  }
+  80%{
+    background-color: rgba(45, 53, 128, 0);
+    transform: translateX(30px);
+
+
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+
+  }
+
+}
+
+.btn-white:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+ color: rgba(134, 53, 53, 0.726);
+ border-radius: 150px;
+
+
+
+}
+

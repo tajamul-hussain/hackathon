@@ -1,0 +1,62 @@
+<form   autocomplete="off" (ngSubmit)="register()" >
+
+  <h2 class="heading-primary-main text-center text-primary text-white mt-4"> Sign Up</h2>
+  <hr>
+  <div class="form-group">
+
+    <input type="text" class="form-control mb-4" name="username" placeholder="User-name"  [(ngModel)]="model.username"    >
+    <input required type="email" class="form-control mb-4" name="Email" placeholder="Email"
+    [(ngModel)]="model.email"  required>
+    <input required type="text" class="form-control mb-4" name="fullname" placeholder="fullname"
+    [(ngModel)]="model.fullname"
+    >
+    <input required type="text" class="form-control mb-4" name="buname" placeholder="business-unit"
+    [(ngModel)]="model.buname"
+    >
+    <div class="form-group mb-3">
+      <label class="mr-2">EmployType  </label>
+       <ng-container style="border-style: solid;" >
+        <label class="radio-inline mr-2" >
+          <input [(ngModel)]="model.employtype" type="radio" value="manager" name="employtype">
+          Manager
+        </label>
+        <label class="radio-inline mr-2"  >
+          <input [(ngModel)]="model.employtype" type="radio" value="associate" name="employtype">
+          Associate
+        </label>
+        </ng-container>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <input required type="password" class="form-control mb-3" name="password" placeholder="Password"
+    [(ngModel)]="model.password" required>
+  </div>
+<div class="form-group text-center">
+  <button class=" btn-white btn btn-secondary btn-block mb-2" type="submit">Register</button>
+
+</div>
+
+
+</form>
+
+

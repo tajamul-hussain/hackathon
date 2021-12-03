@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/">COE</a>
+
+    <ul *ngIf="loggedIn" class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <!-- <a class="nav-link" routerLinkActive="active" routerLink="/employs">Followers</a> -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/employs"  routerLinkActive="active" >Employes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/lists"   routerLinkActive="active" >Lists</a>
+      </li>
+      <ng-container *ngIf="loggedIn" >
+
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/employ/edit"    > EditProfile</a>
+      </li>
+
+
+      </ng-container>
+
+
+<li class="nav-item">
+        <a class="nav-link"  (click)="logout()" >Logout</a>
+      </li>
+
+      <div class="ml-5">
+        <li class="nav-item">
+        <a class="nav-link disabled" > welcome </a>
+      </li></div>
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+    <form *ngIf="!loggedIn"
+      class="d-flex"
+      #loginForm="ngForm"
+      (ngSubmit)="login()"
+      autocomplete="off"
+    >
+      <input
+        name="username"
+        class="form-control me-2"
+
+        placeholder="Username"
+        [(ngModel)]="model.username"
+      />
+      <input
+        name="password"
+        [(ngModel)]="model.password"
+        class="form-control me-2 ml-2"
+        type="password"
+        placeholder="Password"
+      />
+      <button class="btn btn-outline-success ml-2" type="submit">Login</button>
+    </form>
+  </div>
+</nav>
+ <!-- <ngx-spinner></ngx-spinner> -->
+

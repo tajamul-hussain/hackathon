@@ -1,0 +1,22 @@
+
+<div class="container mt-5">
+  <div *ngIf="!registerMode"  style="text-align: center;">
+  <div class="text-box">
+    <span class=" heading-primary-main font-italic font-weight-bold  ">Circle Of Excellence </span>
+    <span class=" heading-primary-sub font-italic " >is where  we reward and recognise our coworkers </span>
+         <button (click)="registerToggle()"  class=" mt-4 btn btn-light btn-white btn-block " >Register</button>
+
+  </div>
+  </div>
+  <div *ngIf="registerMode"  class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register></app-register>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+

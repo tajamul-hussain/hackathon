@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\tajamulhussain\\Desktop\\hack\\hackathon\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\API\\API.csproj",
+      "projectPath": "C:\\Users\\tajamulhussain\\Desktop\\hack\\hackathon\\api\\API.csproj",
       "packagesPath": "C:\\Users\\tajamulhussain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tajamulhussain\\Desktop\\hackathon\\API\\obj\\",
+      "outputPath": "C:\\Users\\tajamulhussain\\Desktop\\hack\\hackathon\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tajamulhussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
